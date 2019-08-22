@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Character Set -->
+    <meta charset="utf-8"> 
+
+    <!-- For mobile website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title>Web Visualization Dashboard (Latitude)</title>
+
+    <!--Link to bootstrap css file for Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Latest version of j-query-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Latest version of popper js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest version of bootstrap.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--Reference to style.css-->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div id="bottomHeader">
+            <div class="container-fluid my-container">
+                <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #004d80" >
+                    <a class = "navbar-brand" href="index.html">Lattitude</a>
+                    <button data-toggle = "collapse" data-target="#navbarToggler" type="button" 
+                    class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id ="navbarToggler">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-li dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" roll="button" >Plot</a>
+                                <div class="dropdown-menu">
+                                    <a href="temperature.html" class="dropdown-item"> Max Temperature</a>
+                                    <a href="humidity.html" class="dropdown-item"> Humidity</a>
+                                    <a href="cloudiness.html" class="dropdown-item"> Cloudiness</a>
+                                    <a href="wind_speed.html" class="dropdown-item"> Wind Speed</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="comparision.html" class="nav-link">Comparision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="weather_data.html" class="nav-link">Data</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid" style="background-color: hsl(40, 13%, 86%)">
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-sm-12 text-side" >
+                    <div class="box">
+                        <div class="page-header">
+                            <h3 class ="title">Summary: Latitude vs X</h3> 
+                            <hr> 
+                        </div>
+                        <div class="box">
+                            <img src="Resources/assets/images/Fig1.png" class = "img-fluid image-main" alt="Latitude vs. Max Temperature" height="350" width="350" align="left">
+                            <p class ="paragraph">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from
+                                the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                            <p class ="paragraph">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness,
+                                wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any
+                                trends and correlations witnessed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-sm-12"  style="background-color: hsl(40, 13%, 86%)">
+                    <div class="box">
+                        <div class="page-header header-2">
+                            <h3 class="title my-title">Visualizations</h3>
+                            <hr> 
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <a  href="temperature.html"><img src="Resources/assets/images/Fig1.png" class = "img-fluid"></a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <a  href="humidity.html"><img src="Resources/assets/images/Fig2.png" class = "img-fluid"></a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class = "img-fluid"></a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class = "img-fluid"></a>
+                            </div>
+                        </div>
+                        </div>
+                </div>       
+            </div>
+    </section>
+
+    <footer class ="full-footer pt-4">
+        <div class= "container footer">
+            <div class="row">
+                <div class="col-12">
+                    <p class = "text-center">© Copywrite Coding Bootcamp 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+
+</html>

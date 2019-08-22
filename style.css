@@ -1,0 +1,88 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-style: unset;
+    color: antiquewhite;
+}
+
+.navbar{
+    background-color: beige;
+    width: 100%;
+}
+.my-container{
+    padding :0px;
+}
+
+nav ul li a {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.full-footer{
+    background-color: #535956;
+    width: 100%;
+    font-weight: 600;
+}
+
+.collapse{
+    padding-right: 0px;
+}
+
+.footer{
+    width: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+}
+.image-main{
+    padding-right:15px;
+}
+
+div p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image-side{
+    padding: 1px;
+}
+
+.header-2{
+    padding-top: 10px;
+}
+
+.page-header{
+    padding-top:5px ;
+}
+
+.my-title{
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.paragraph {
+    padding-top: 20px;
+}
+
+
+.images{
+    text-align: center;
+}
+
+.compare{
+    font-size: 1.2rem;
+}
+
+img.decor{
+	text-decoration:none;
+	border:#0b7178 thick solid;
+	padding: 4px;
+}
+
+.thead-dark{
+    background-color: #535956;
+}
+
+/* table thead tr th{
+    text-align: centre;
+} */
