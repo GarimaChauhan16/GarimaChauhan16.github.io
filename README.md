@@ -1,2 +1,2 @@
 
-Click here to see the bio:  https://GarimaChauhan16.github.io
+Click here to see the bio:  https://garimachauhan16.github.io
