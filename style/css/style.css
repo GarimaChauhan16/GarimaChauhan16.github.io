@@ -8,11 +8,6 @@
   height: 300px;
 }
 
-.about {
-    background-color: #99b0c4;
-    padding: 30px;
-}
-
 #contact {
   background-color: #a1a2ad;
 }
@@ -24,6 +19,22 @@
 .name{
     text-align: center;
     
+}
+
+.fa-linkedin{
+  color: #0e76a8;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-envelope-o{
+  color: #b23121;
+}
+
+.fa-phone{
+  color: #4a454a;
 }
 
 .btn{
@@ -46,26 +57,57 @@
   font-style: italic;
 }
 .header-content {
-    padding: 200px;
+    padding: 85px;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image:url("https://GarimaChauhan16.github.io/Images/bg.png");
+    background-image: url("https://GarimaChauhan16.github.io/Images/bg.png");
   }
+
+
+  .about {
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("https://GarimaChauhan16.github.io/Images/projects.png");
+    background-blend-mode: multiply;
+    background-color:#c2c2c5;
+  }
+
+  .myImage {
+    width: 230px;
+     height: 230px;
+     border: 1px solid white;
+     border-radius: 140px;
+     background-image: url("https://GarimaChauhan16.github.io/Images/garima.png");
+     background-size: 240px;   
+     background-repeat: no-repeat;
+     background-position: 50%;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
   .text-faded {
     font-size: 20px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .text-skill {
+    font-size: 18px;
+    font-weight: 400;
+  }
   .education{
       padding: 30px 10px;
-      background-color: #99b0c8;
+      /* background-color: #99b0c8; */
   }
 
   .experience{
     padding: 30px 10px;
-    background-color: #99b0c8;
+    /* background-color: #99b0c8; */
 }
 
   .school {
@@ -83,8 +125,8 @@
 }
 
   .skills{
-    padding: 30px;
-    background-color: #99b0c4;
+    padding: 40px;
+    /* background-color: #99b0c4; */
 }
 .navbar-brand {
     font-size: 2rem;
